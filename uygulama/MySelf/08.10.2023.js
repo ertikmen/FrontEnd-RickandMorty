@@ -192,6 +192,23 @@ const karakterSayisi=(string,karakter)=>{
 console.log(karakterSayisi("almanya",'a'));
 
 
+// 12 - içerisine kaç adet sayı yazılırsa yazılsın, sayıların toplamını döndüren bir fonksiyon yazınız.
+console.log("Soru-12");
+
+const hepsininToplami=(...sayilar)=>{
+    let toplam=0;
+    for(let i=0;i<sayilar.length;i++){
+        toplam+=sayilar[i];
+    }
+    return toplam;
+}
+
+console.log(hepsininToplami(5,10,15,20,25,30,80));
+
+
+
+
+
 
 
 
