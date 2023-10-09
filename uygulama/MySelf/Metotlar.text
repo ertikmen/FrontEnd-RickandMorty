@@ -1,0 +1,21 @@
+push     ==>    array'in sonuna eleman ekler.
+unshift  ==>    array'in başına eleman ekler.
+pop  ==>  arrayin sonundan bir eleman siler.
+shift ==>  array'in baştan 1 elamanını siler.
+concet ==> arrayleri birleştirir fakat değiştirmez.
+const ucuncuArray2=[...myArray,...yeniDizi];  array birleştirmeyi bu şekilde de yapabiliriz.
+const ucuncuArray2=[...myArray,...yeniDizi,...[1,2,3]];
+includes ==> içeriyor mu?
+console.log(myArray.includes("armut",7));  .... index e göre alır o index dahildir burada 7
+indexOf  ==> kaçıncı indexte olduğunu bulur.
+const myArray3=myArray2.slice(0,3);  3 dahil değil..
+
+console.log(myArray2.splice(3,4,"Uygar","Yusuf")); 
+console.log(myArray2);
+0 dan başlayıp 3 dahil 4 tane sil
+
+join("+") ==> array in her elemanının arasına belirtilen işareti atar..
+
+
+for kullanırken let kullan const kullanma****
+

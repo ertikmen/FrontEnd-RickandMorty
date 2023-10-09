@@ -1,0 +1,20 @@
+// Kullanıcıdan bir ay ismi alın ve girilen ayın kaç gün olduğunu konsola yazdırın. (Switch Case)
+
+// BMW, Mercedes ve Audi Markaları için farklı renk çeşitlerine göre stok durumunu kontrol eden iç içe bir switch yapısı oluşturun. yaratacağınız stokDurumu değişkenini stokta "Var" veya "Yok" olarak güncellesin.
+
+
+eğer araba markaları bu 3ünden biriyse ve renkler siyah beyaz ise o zaman stokta var yazalım aksi durumlar stokta yok yazalım..
+
+
+
+
+Yaşı girilen kullanıcının ehliyet alıp alamayacağını, ehliyet alamıyorsa kaç yıl sonra alacağını yazdıran programı yazalım. ehliyet alma yaşı 18'dir.
+
+24 saatlik bir sistemde kullanıcıdan saat girişi yapmasını isteyelim. 6-11 arasındaysa günaydın, 11-16 arasındaysa iyi öğlenler 16-24 arasındaysa iyi akşamlar 0-6 arasındaysa iyi geceler desin. ve 0 dan alt ve 24 ten üst bir saat girerse de yanlış saat girdiniz diye uyarı(alert) versin. 
+
+
+kullanıcı adı ve şifresi alalım bunlar eğer 2si birden doğruysa hoşgeldiniz desin biri yanlışsa hangisinin yanlış olduğunu söylesin. 
+
+hesap makinesi yazalım girilen simgeye göre ( + - / * ) ve girilen 2 sayıyı işleme tabii tutsun.
+girilen bu sayıların çift mi tek mi sıfır kontrolü de yapsın 
+
