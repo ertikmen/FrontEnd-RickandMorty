@@ -182,10 +182,19 @@ ucretDetay(aracBilgileri);
 // student isimli bir nesne oluşturun ve içerisine 3 adet özellik ekleyin. Nesnenin özelliklerini `for...in` döngüsüyle dolaşan ve konsola yazdıran bir fonksiyon yazın.
 
 const student = {
-  name: "Cem",
-  yas: 29,
+  isim: "Ali",
+  yas: 32,
   cinsiyet: "Erkek",
 };
+
+// let txt="";
+// for(let i in student){
+//     txt+=i+": "+student[i]+" ";
+// }
+
+// console.log(txt);
+
+
 
 const ozellikYazdir = (nesne) => {
   for (let key in nesne) {
@@ -197,28 +206,28 @@ ozellikYazdir(student);
 
 // İçerisinde 3 adet öğrenci nesnesi bulunan bir dizi oluşturun. her nesnenin kendisine ait isim ve not özellikleri bulunsun.(örn. {name: "Cem", grades: [80, 90, 50]}) Öğrencilerin ortalama notlarını `for...of` döngüsü kullanarak hesaplayın ve dersten geçip geçmedikleri bilgisini isimleriyle birlikte konsola yazdırın. (Geçer not 60)
 
-const students = [
-  { name: "Cem", grades: [40, 30, 50] },
-  { name: "Ahmet", grades: [80, 90, 50] },
-  { name: "Serkan", grades: [60, 70, 50] },
-];
+// const students = [
+//   { name: "Cem", grades: [40, 30, 50] },
+//   { name: "Ahmet", grades: [80, 90, 50] },
+//   { name: "Serkan", grades: [60, 70, 50] },
+// ];
 
-const basariDurumu = (students) => {
-  const gecerNot = 60;
+// const basariDurumu = (students) => {
+//   const gecerNot = 60;
 
-  for (let student of students) {
-    let total = 0;
-    for (let grade of student.grades) {
-      total += grade;
-    }
+//   for (let student of students) {
+//     let total = 0;
+//     for (let grade of student.grades) {
+//       total += grade;
+//     }
     
-    const average = total / student.grades.length;
-    if (average >= gecerNot) {
-      console.log(student.name + " Dersi başarıyla geçmiştir.");
-    } else {
-      console.log(student.name + " Başarısız olmuştur.");
-    }
-  }
-};
+//     const average = total / student.grades.length;
+//     if (average >= gecerNot) {
+//       console.log(student.name + " Dersi başarıyla geçmiştir.");
+//     } else {
+//       console.log(student.name + " Başarısız olmuştur.");
+//     }
+//   }
+// };
 
-basariDurumu(students);
+// basariDurumu(students);
